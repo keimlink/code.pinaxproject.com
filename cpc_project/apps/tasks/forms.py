@@ -22,7 +22,7 @@ class TaskForm(forms.ModelForm):
     
     class Meta:
         model = Task
-        fields = ('summary', 'detail', 'assignee', 'tags')
+        fields = ('summary', 'detail', 'assignee', 'tags', 'markup')
 
 
 class EditTaskForm(forms.ModelForm):
